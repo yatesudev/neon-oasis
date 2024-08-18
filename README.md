@@ -1,6 +1,9 @@
 # Cyberpunk Bar
 
-Welcome to the **Neon Oasis** website, a Cyberpunk-themed bar! This project was created as part of the module **"Selected Areas of Human-Technology Interaction"** and was developed using **HTML5** and **CSS** without any frameworks.
+# Neon Oasis
+
+## Overview
+This project is a Cyberpunk-themed bar website created as part of the module **"Selected Areas of Human-Computer Interaction"**. The website was developed using **HTML5** and **CSS** without the use of frameworks.
 
 ## Dekstop Version
 <img src="neon_oasis_pc.png" alt="Neon Oasis" width="800"/>
@@ -8,27 +11,32 @@ Welcome to the **Neon Oasis** website, a Cyberpunk-themed bar! This project was 
 ## Mobile Version
 <img src="neon_oasis_mobile.png" alt="Neon Oasis" height="600"/>
 
-## Project Overview
+## Features
+The website includes the following pages:
 
-- **Project Name**: Neon Oasis
-- **Theme**: Cyberpunk Bar
-- **Pages**: Home, Events, Drinks, Gallery, Rules, Contact
+- **Home**: Introduction and overview of Neon Oasis.
+- **Events**: Upcoming events and special nights.
+- **Drinks**: Menu of drinks available at the bar.
+- **Gallery**: AI-generated images showcasing the bar's ambiance.
+- **Rules**: House rules and guidelines.
+- **Contact**: Contact information and inquiry form.
 
-## Structure and Design
+### Design Features
+- **Cyberpunk Theme**: Enhanced with unique fonts and colors.
+- **Responsive Layout**: Adjusts automatically for 1-, 2-, 3-, and 4-column designs using `display: grid`.
 
-- **HTML**: The site uses structuring HTML elements such as `<header>`, `<nav>`, `<article>`, `<section>`, `<footer>`, and `<div>` to ensure a clear layout.
-- **CSS**: All styling and layout rules are defined in CSS. Different fonts and colors were used to enhance the Cyberpunk theme.
-- **Responsiveness**: The layout adjusts automatically to various screen sizes with 1-, 2-, 3-, and 4-column designs implemented using `display: grid`.
+## Installation & Usage
+1. Download and extract the project.
+2. Open `index.html` in a modern web browser.
+3. Navigate through the various pages to explore the Cyberpunk-themed content and design.
 
-## Content
-
-- **Images**: All images were AI-generated and integrated into the design.
-- **Navigation**: The website includes a menu bar with links to all subpages and external content.
+## Requirements
+- A modern web browser supporting HTML5 and CSS.
+- The website has been tested in Firefox and another browser for compatibility.
 
 ## Notes
+- **Code Quality**: The code is manually written and well-structured, focusing on maintainability and avoiding unnecessary redundancies.
+- **Images**: All images are AI-generated and incorporated into the design.
 
-- **Browser Compatibility**: The website has been tested and works in both Firefox and another browser.
-- **Code Quality**: The code is well-structured and maintainable, with a focus on avoiding unnecessary redundancies.
-
-Enjoy exploring Neon Oasis!
+Enjoy your virtual visit to Neon Oasis!
 
