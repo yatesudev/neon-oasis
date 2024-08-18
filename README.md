@@ -1,7 +1,5 @@
 # Cyberpunk Bar
 
-# Neon Oasis
-
 ## Overview
 This project is a Cyberpunk-themed bar website created as part of the module **"Selected Areas of Human-Computer Interaction"**. The website was developed using **HTML5** and **CSS** without the use of frameworks.
 
