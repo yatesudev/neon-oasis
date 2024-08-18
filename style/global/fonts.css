@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Cyberpunk';
+    src: url("../../assets/fonts/CyberwayRiders-lg97d.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Cyberpunk2';
+    src: url("../../assets/fonts/Sdglitchrobotdemo-GOPdO.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Cyberpunk3';
+    src: url("../../assets/fonts/Demosdcyberglitch-yw6GM.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Cyberpunk4';
+    src: url("../../assets/fonts/Play-Regular.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }

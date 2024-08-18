@@ -1,0 +1,110 @@
+
+
+#rules {
+    grid-column: 1 / -1;
+    display: grid;
+    grid-row: 2;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    max-width: 100%;
+    background: linear-gradient(to bottom, var(--background-1), var(--background-2));
+    
+}
+
+#blacklist {
+    grid-column: 1 / -1;
+    display: grid;
+    grid-row: 3;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    max-width: 100%;
+    background: var(--background-2);
+    margin-bottom: 2em;
+}
+
+.rule {
+    margin: 1em;
+    margin-bottom: 5em;
+    background-color: rgba(0, 0, 0, 0.205);
+    padding: 1rem;
+    border-radius: 10px;
+    
+}
+
+#human {
+    border: 3px solid var(--accent-1);
+    box-shadow: 0 0 15px 0 var(--accent-1);
+}
+
+#robots {
+    border: 3px solid var(--accent-2);
+    box-shadow: 0 0 15px 0 var(--accent-2);
+}
+
+
+.rule li {
+    list-style-position: inside;
+    padding: 0.6rem;
+    font-size: 1.5rem;
+}
+
+#weapons-wrapper {
+    padding: 1rem;
+    font-weight: bold;
+    font-size: 2rem;
+    /*list-style-type: none;*/
+}
+
+#weapons {
+    font-weight: normal;
+}
+
+#weapons ul {
+    list-style-type: none;
+}
+
+.allowed {
+    color: rgb(112, 243, 112);
+}
+
+.forbidden {
+    color: rgb(241, 87, 87);
+}
+
+#robots-singleGrid {
+    display: none;
+    color: var(--accent-2);
+}
+
+#robotsHeader {
+    color: var(--accent-2);
+}
+
+#humanHeader {
+    color: var(--accent-1);
+}
+
+.cell {
+    background-color: rgba(0, 0, 0, 0.356);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#blacklist table {
+    margin: auto;
+    margin-top: 1rem;
+    background-color: rgba(0, 0, 0, 0.178);
+    border-radius: 10px;
+    border: 3px solid var(--accent-1);
+    box-shadow: 0 0 15px 0 var(--accent-1);
+    width: 30%;
+
+}
+
+#blacklist table td {
+    padding: 5px;
+}

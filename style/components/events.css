@@ -1,0 +1,37 @@
+#events {
+    grid-column: 1 / -1;
+    display: grid;
+    grid-row: 2;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: linear-gradient(to bottom, var(--background-1), var(--background-2));
+    max-width: 100%;
+}
+
+.event img {
+    aspect-ratio: 1 / 1; /* Set the aspect ratio */
+    width: 100%; /* Set the desired width */
+    max-width: 300px;
+    object-fit: cover; /* Adjust as needed (cover, contain, etc.) */
+    border-radius: 10px;
+}
+
+.event .newsTitle {
+    font-size: 1.2em;
+    color: var(--accent-2);
+}
+
+.unaviable {
+    filter: grayscale(80%);
+}
+
+.unaviable:hover {
+    filter: grayscale(80%);
+}
+
+.event .newsDate {
+    font-size: 0.8em;
+    color: var(--accent-1);
+}

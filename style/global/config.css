@@ -1,0 +1,39 @@
+:root {
+    --background-2: #0d1422;
+    --accent-1: #ea0081;
+    --accent-2: 	#0abdc6;
+    --main-accent:  #e1ff4a;
+    --alternative-1: #133e7c;
+    --background-1: #080c14;
+}
+
+* {
+  font-family: 'Cyberpunk4', sans-serif;
+  text-shadow: 0 0 0.15rem rgb(255, 255, 255);
+}
+
+body {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  display: grid;
+  margin: 0;
+  transition: all 0.3s ease 0s;
+  background: linear-gradient(to bottom, var(--background-1), var(--background-2));
+  color: white;
+  text-align: center;
+}  
+
+h1 {
+  font-size: 2em;
+  padding: 0;
+  margin: 0;
+}
+
+h2 {
+  padding: 0;
+  margin: 0;
+}
+  
+h3 {
+  padding: 0;
+  margin: 0;
+}

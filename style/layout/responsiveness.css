@@ -1,0 +1,159 @@
+
+.fullRow {
+  grid-column: 1 / -1;
+}
+
+
+@media screen and (max-width: 780px) {
+  #navbar li {
+    font-size: 0.68em;
+  }
+
+  #events {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .event {
+    grid-column: 1/-1;
+  }
+
+  .event img {
+    width: 100%;
+    height: auto;
+  }  
+
+  #drinkMenu {
+    grid-template-columns: repeat(2, 1fr); /* Change to 2 columns */
+  }
+
+  #galleryLayout {
+    grid-template-columns: repeat(2, 1fr); /* Change to 2 columns */
+  }
+
+  .gallery img {
+    width: 90%; /* Set the desired width */
+  }
+
+  #rules {
+    grid-template-columns: 1fr;
+  }
+
+  #robots-singleGrid {
+    display: block;
+  }
+
+  #robotsHeader {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1200px) and (min-width: 780px) {
+  #events {
+      grid-template-columns: repeat(2, 1fr); /* Change to 2 columns */
+  }
+
+  #drinkMenu {
+    grid-template-columns: repeat(3, 1fr); /* Change to 2 columns */
+  }
+
+  #galleryLayout {
+    grid-template-columns: repeat(3, 1fr); /* Change to 2 columns */
+  }
+
+  .gallery img {
+    width: 90%; /* Set the desired width */
+  }
+}
+
+@media screen and (min-width: 600px) {
+
+  #siteAdsWrapper {
+    min-height: 0;
+    overflow-y: auto;
+    max-height: 100vh;
+    margin-bottom: 0.5em;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    grid-template-columns: 1fr;
+  }
+
+  #navbar li {
+    float: none;
+    width: 100%;
+  }
+
+  #headingText {
+    transform: scale(1.5);
+    padding: 0;
+    padding-bottom: 0em;
+    margin-top: 0em;
+    margin-bottom: 0.3em;
+  }
+
+  #home {
+    grid-template-columns: 1fr;
+  }
+
+  #drinkMenu {
+    grid-template-columns: 1fr;
+  }
+
+  #galleryLayout {
+    grid-template-columns: 1fr;
+  }
+
+  #galleryLayout .galleryVideo{
+    grid-column: span 1;
+    transform: scaleX(0.9);
+  }
+
+  
+
+  #events {
+    grid-template-columns: 1fr;
+  }
+  
+  #event {
+    grid-column: 1;
+  }
+
+  #drinkItem {
+    grid-column: 1;
+  }
+
+  #headerWrapper {
+    grid-column: 1 / 2;
+    grid-row: 1;
+  }
+
+  #navbarWrapper {
+    grid-column: 1 / 2;
+    grid-row: 2;
+  }
+
+  #mainArticleWrapper {
+    grid-column: 1 / 2;
+    grid-row: 3;
+    border: none;
+  }
+
+  #siteAdsWrapper {
+    grid-column: 1 / 2;
+    grid-row: 4;
+    border: none;
+    border-top: 3px solid var(--main-accent);
+  }
+
+  #footerWrapper {
+    grid-column: 1 / 2;
+    grid-row: 5;
+  }
+
+  .infoBlock {
+    grid-column: 1 / 2;
+    grid-row: 6;
+  }
+}

@@ -1,0 +1,27 @@
+@keyframes glow {
+    0%   { background-color: var(--background-2); }
+    80%   { background-color: var(--background-2); }
+    100% { background-color: #e1ff4a13; }
+}
+
+@keyframes hoverAnimation {
+  0% {
+    font-size: 1em;
+    padding: 0;
+  }
+  100% {
+    font-size: 1.3em;
+    padding: 5px;
+  }
+}
+  
+@keyframes hoverAnimationOut {
+  0% {
+    font-size: 1.3em;
+    padding: 5px;
+  }
+  100% {
+    font-size: 1em;
+    padding: 0;
+  }
+}

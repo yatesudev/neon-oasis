@@ -1,0 +1,44 @@
+#galleryLayout {
+    grid-column: 1 / -1;
+    display: grid;
+    grid-row: 2;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    background: linear-gradient(to bottom, var(--background-1), var(--background-2));
+    max-width: 100%;
+}
+
+#galleryLayout .newsBlock {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 3em;
+}
+
+.galleryVideo video {
+    transform: scaleX(1.23);
+    max-width: 75%;
+    border-radius: 10px;
+    border: 3px solid var(--accent-1);
+    box-shadow: 0 0 15px 0 var(--accent-1);
+}
+
+#galleryLayout .galleryVideo {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 3em;
+    grid-column: span 2;
+}
+
+.gallery img {
+    aspect-ratio: 1 / 1; /* Set the aspect ratio */
+    width: 90%; /* Set the desired width */
+    max-width: 400px;
+    object-fit: cover; /* Adjust as needed (cover, contain, etc.) */
+    border-radius: 10px;
+    border: 3px solid var(--accent-2);
+    filter: drop-shadow(0 0 15px var(--accent-2));
+}
+
